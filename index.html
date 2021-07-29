@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <!-- <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script> -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sound src="src: url(/music/js_-_i_was_like.mp3)" autoplay="true" position="-8.10943 2 8.45618" sound=""></a-sound>
+
+      <a-entity environment="
+      preset: dream;
+      dressing: mushrooms;
+      dressingAmount: 1200;
+      groundYScale: 20;
+      dressingColor:#fff;
+      groundTexture: walkernoise;
+      "></a-entity>
+
+      <a-entity vive-controls="hand: left"></a-entity>
+<a-entity vive-controls="hand: right"></a-entity>
+
+      <a-entity rotation="-90 0 0" class="environmentGround environment" visible="" scale="1 1 20" shadow="cast: false; receive: false"></a-entity>
+
+      <!-- <a-entity text="value: Short Circuit &#129409;" position="0.04048 1.98175 -2.33025" rotation="0 400 5"></a-entity> -->
+
+      <a-entity gltf-model="/model/space_engineers_astronaut/scene.gltf" position="-17.3332 -48.26535 -122.13842" rotation="" scale="0.7 0.7 0.7"></a-entity>
+      <a-entity gltf-model="/model/pixel_art_space_invaders/scene.gltf" position="86.47894 86.27968 106.75029" rotation="0 29.999999999999996 0" scale="0.1 0.1 0.1"></a-entity>
+      <a-entity
+      gltf-model="/model/pixel_art_smiley_face/scene.gltf"
+      position="-11.04737 6.06381 0"
+      rotation=""
+      scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity gltf-model="/model/a_lighter/scene.gltf" position="6.28031 0.04044 -3.85769" rotation="90 0 -45" scale="0.07 0.07 0.07"></a-entity>
+      <a-entity gltf-model="/model/tesla_cybertruck/scene.gltf" position="37.62277 17.6839 -26.08199" rotation="0 79.99 40.01" scale="3 3 3"></a-entity>
+
+      <a-entity gltf-model="/model/lampstand_menorah_of_the_tabernacle/scene.gltf" position="1 0 -30.31386" rotation="" scale="0.7 0.7 0.7"></a-entity>
+
+      <a-entity gltf-model="/model/banana_duct/scene.gltf" position="0.45487 0.03266 -2.23066" rotation="" scale="0.7 0.7 0.7"></a-entity>
+      <a-entity gltf-model="/model/casette_tape/scene.gltf" position="2.09316 0.02256 -1.06588" rotation="90 0 0" scale="0.2 0.2 0.2"></a-entity>
+
+      <a-entity gltf-model="/model/pills/scene.gltf" position="-0.4866 0.07192 3.4344" scale="0.1 0.1 0.1"></a-entity>
+      <a-entity gltf-model="/model/pills/scene.gltf" position="2.44561 0.07943 1.81248" scale="0.1 0.1 0.1"></a-entity>
+      <a-entity gltf-model="/model/pills/scene.gltf" position="2.22607 0.07093 4.00161" scale="0.1 0.1 0.1" rotation="0 70 0"></a-entity>
+      <a-entity gltf-model="/model/pills/scene.gltf" position="-2.03152 0.08137 5.40243" scale="0.1 0.1 0.1" rotation="0 80 0"></a-entity>
+
+      <a-entity gltf-model="/model/moon_buggy/scene.gltf" position="6.88403 -0.02271 11.89279" scale="0.1 0.1 0.1"></a-entity>
+      <a-entity gltf-model="/model/angel/scene.gltf" position="0 -0.12 31.277" scale="0.1 0.1 0.1"></a-entity>
+      <a-entity gltf-model="/model/spaceship/scene.gltf" scale="0.5 0.5 0.5" rotation="-70 120.01000000000002 32" position="-31.41387 13.63877 -59.91223"></a-entity>
+      <a-entity gltf-model="/model/jelly_mushroom/scene.gltf" position="80.877 -18.444 -13.28037" scale="0.5 0.5 0.5"></a-entity>
+      <a-entity gltf-model="/model/mushrooms/scene.gltf" position="0 -1 0"></a-entity>
+      <a-entity gltf-model="/model/nike/scene.gltf" position="27.014 -7.34567 -64.757" rotation="0 400 0" visible="" scale="0.2 0.2 0.2"></a-entity>
+  </body>
+</html>
